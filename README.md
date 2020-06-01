@@ -26,7 +26,7 @@
         ```
     1. 如果都失败，请参考[相近型号破解的思路](#其他几个相近型号的破解)和[#2](https://github.com/jonirrings/xor/issues/2)
 1. 在u盘内得到ctce8_TEWA-708E.cfg文件
-1. 使用[routerpassview](http://www.nirsoft.net/utils/router_password_recovery.html)或者[附件的xor](https://github.com/jonirrings/xor/releases)解密， 使用方法参考[#4](https://github.com/jonirrings/xor/issues/4)
+1. python3 myxor.py srcfile dstfile 
 1. 在解密后文件内找到TeleComAccount，下面的Password内即为超密
 1. 如果需要打开telnet，超级用户登陆后，打开 http://192.168.1.1:8080/enableTelnet.html 即可启用telnet
 
